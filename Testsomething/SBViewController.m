@@ -18,14 +18,7 @@
     SB2ViewController *sb2=[[SB2ViewController alloc] init];
     [self.navigationController pushViewController:sb2 animated:YES];
     [sb2 release];
-//    ASIHTTPRequest *request=[ASIHTTPRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]];
-//    [request setCompletionBlock:^{
-//        NSLog(@"%@",[request responseString]);
-//    }];
-//    [request setFailedBlock:^{
-//        NSLog(@"%@",[request error]);
-//    }];
-//    [request startAsynchronous];
+
 }
 
 -(void)progressArray:(NSMutableArray *)array Obj:(id)obj{
