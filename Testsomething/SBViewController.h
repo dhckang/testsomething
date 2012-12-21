@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SBViewController : UIViewController{
-    UIButton *button;
+
 }
 
 @end
