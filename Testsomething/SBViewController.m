@@ -87,7 +87,7 @@
     __block NSDate* tmpStartData = [[NSDate date] retain];
     NSMutableArray *gcdtestArray=[[NSMutableArray alloc] initWithArray:@[@(1),@(2),@(3),@(4),@(5),@(6)]];
       //normal loop crash!!!!!!!!!!!!!!!!!!! compare with gcd
-    //    for (id obj in gcdtestArray) {
+//    for (id obj in gcdtestArray) {
 //        [self progressArray:gcdtestArray Obj:obj];
 //    }
     //no crash
